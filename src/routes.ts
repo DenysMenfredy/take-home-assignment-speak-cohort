@@ -12,6 +12,9 @@ routes.get('/', (req:Request, res:Response) => {
 });
 
 routes.get('/users', UserController.getAllUsers);
-// routes.post('/user', UserController.createUser);
+routes.post('/user', UserController.createUser);
+routes.get('/user/:id', UserController.getUser);
+routes.put('/user/:id', UserController.updateUser);
+routes.delete('/user/:id', UserController.deleteUser);
 
 export default routes;
