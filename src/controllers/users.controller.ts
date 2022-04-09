@@ -15,13 +15,6 @@ class UserController {
         });
     }
 
-    // TODO: learn how to use interfaces with typescript
-    // interface User {
-    //     name: string;
-    //     email: string;
-    //     password: string;
-    // }
-
     createUser = async (request:Request, response:Response) => {
         const { name, email, password } = request.body;
         const user = await prisma.user.create({

@@ -1,9 +1,12 @@
-// const path = require('path');
 import app from './app';
 
-require('dotenv').config('../.env');
+import dotenv from 'dotenv';
 
-const port = process.env.PORT || 8000;
+dotenv.config(process.env.NODE_ENV === 'test' ? { path: '.env.test' } : { path: '.env' });
+
+console.log(process.env.NODE_ENV);
+
+const port = process.env.SERVER_PORT || 8000;
 
 app.listen(port, () => {
     console.log(`Server running on port ${port}`);
