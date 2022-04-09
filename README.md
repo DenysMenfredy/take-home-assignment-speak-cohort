@@ -15,7 +15,7 @@ To develop this project I used the following tech stack:
 
 <img align="left" alt="NodeJS logo" src="https://img.icons8.com/color/48/000000/nodejs.png" />
 
-<img align="left" alt="Prisma ORM logo" src="https://plugins.jetbrains.com/files/14282/117646/icon/pluginIcon.png" witdh="48px" height="48px"/>
+<!-- <img align="left" alt="Prisma ORM logo" src="https://plugins.jetbrains.com/files/14282/117646/icon/pluginIcon.png" witdh="48px" height="48px"/> -->
 
 <br><br>
 
